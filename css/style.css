@@ -16,7 +16,7 @@ body {
   color: #15181d;
   background: #fff url('../img/bg-frog-v2.jpg') no-repeat center center fixed;
   background-size: cover;
-  font: 14px/ 1.55 'Roboto', sans-serif;
+  font: 12px/ 1.78 'Poppins', sans-serif;
 
 }
 
@@ -35,7 +35,7 @@ h1 {
 
 /* first paragraph is supposed to be italic */
 p:first-child {
-  font-size: 16px;
+  font-size: 12px;
   font-style: italic;
 
 }
