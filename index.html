@@ -1,117 +1,34 @@
-* {
-  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
-  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
-  box-sizing: border-box;
-         /* Opera/IE 8+ */
-}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animal Trading Cards || Tree Frog</title>
 
-html, body {
-  padding: 0;
-  margin: 0;
+	<link rel="stylesheet" media="screen" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,400,700" rel="stylesheet">
 
-}
-
-
-body {
-  color: #15181d;
-  background: #fff url('../img/bg-frog-v2.jpg') no-repeat center center fixed;
-  background-size: cover;
-  font: 14px/ 1.55 'Roboto', sans-serif;
-
-}
-
-/* basic elements */
-
-h1 {
-  color: #e26811;
-  font-size: 2em;
-  font-weight: 100;
-  margin-top: 0;
-  margin-bottom: 15px;
-  padding-left: 40px;
-  background: url('../img/ico-frog.png') no-repeat left center;
-
-}
-
-/* first paragraph is supposed to be italic */
-p:first-child {
-  font-size: 16px;
-  font-style: italic;
-
-}
-
-p:last-child {
-  text-align: center;
-
-}
-
-.button {
-    color: #e26811;
-    background-color: #fff; /* Green */
-    text-align: center;
-    text-decoration: none;
-    margin: 5px auto 0;
-    padding: 8px 16px;
-    border: 1px solid #e26811;
-    border-radius: 2px;
-    display: inline-block;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
-    cursor: pointer;
-
-}
-
-.button:hover {
-    background-color: #e26811;
-    color: white;
-}
-
-ul {
-  -webkit-padding-start:0;
-  padding: 5px 0;
-
-}
-
-li {
-  list-style-type: none;
-
-}
-
-li span {
-  /*color: #e26811;*/
-  font-weight: bold;
-  padding-right: 5px;
-
-}
-
-
-img {
-  display: block;
-  margin: 0 auto;
-  border: 1px solid #adce5f;
-  border-radius: 2px;
-
-}
-
-
-/* content elements */
-
-#card {
-  width: 344px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 2px;
-  border: 1px solid #fff;
-  box-shadow:  0 0 60px 0 rgba(31,32,68,0.35);
-
-}
-
-.content {
-  width: 302px;
-  margin: 20px auto 0;
-  padding: 15px;
-  border: 1px solid #adce5f;
-  border-radius: 2px;
-
-}
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<div id="card">
+		<!-- your favorite animal's name goes here -->
+		<h1>Tree Frog</h1>
+		<!-- your favorite animal's image goes here -->
+		<img src="img/frog.jpg" alt="tree frog">
+		<div class="content">
+			<!-- your favorite animal's interesting fact goes here -->
+			<p>Did you know: Some frogs have the ability to achieve gliding flight.</p>
+			<ul>
+				<!-- your favorite animal's list items go here -->
+				<li><span>Scientific name:</span> Litoria caerulea</li>
+				<li><span>Lifespan:</span> up to 16 years</li>
+				<li><span>Trophic level:</span> Carnivorous</li>
+				<li><span>Size:</span> up to 10 cm (Adult)</li>
+			</ul>
+			<!-- your favorite animal's description goes here -->
+			<p>Green tree frogs are very docile and unafraid of humans. They are nocturnal and come out in early evenings to call (in spring and summer) and hunt for food. During the day, they find cool, dark, and moist areas, such as tree holes or rock crevices, in which to sleep.</p>
+			<p><a class="button" href="https://en.wikipedia.org/wiki/Australian_green_tree_frog" target="_blank" title="Australian Tree Frogs">further reading »</a></p>
+		</div>
+	</div>
+</body>
+</html>
